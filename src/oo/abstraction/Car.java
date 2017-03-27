@@ -12,6 +12,5 @@ public class Car {
       this.brand=brand;
       this.cc=cc;
       this.name=name;
-      
     }
 }

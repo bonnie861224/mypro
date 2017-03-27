@@ -16,6 +16,5 @@ public class Shoes {
       this.pattern=pattern;
       this.use=use;
       this.price=price;
-    }
-    
+    }    
 }

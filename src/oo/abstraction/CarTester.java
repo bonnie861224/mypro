@@ -24,7 +24,6 @@ public class CarTester {
 		}
 		System.out.println(i);
 	}
-
 	class AA {
 
 	}
