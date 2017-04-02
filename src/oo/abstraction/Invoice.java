@@ -21,7 +21,11 @@ public class Invoice {
 		a.add("821");
 		a.add("886");
 		a.add("554");
-		System.out.println(a.equals(sub));
+		if(a.equals(sub)){
+			
+		}else{
+			
+		}
 		
 	}
 }
