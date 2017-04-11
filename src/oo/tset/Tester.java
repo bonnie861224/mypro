@@ -23,11 +23,9 @@ public class Tester {
 		System.out.println(a.size());
 		a.set(2, "885");
 		System.out.println(a);
-		String data = a.get(2);
+		String data = a.get(2);//拿裡面的第三項
 		// int n =(int)a.get(4);
 		System.out.println(data);
-		
-			
 		}
 	}
 
