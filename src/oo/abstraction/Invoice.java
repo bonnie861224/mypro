@@ -26,7 +26,6 @@ public class Invoice {
 			System.out.println("中獎");
 		} else {
 			System.out.println("沒中");
-
 		}
 	}
 }
