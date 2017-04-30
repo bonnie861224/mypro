@@ -1,4 +1,4 @@
-package oo.tset;
+package oo.test;
 
 import oo.abstraction.Car;
 
@@ -28,5 +28,6 @@ public class Tester {
 		System.out.println(data);
 		}
 	}
+
 
 
