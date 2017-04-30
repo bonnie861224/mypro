@@ -10,7 +10,7 @@ public class Tester {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Car c = new Car("xx", 2000, "name");
+		Car c = new Car("xx", "name", 2000);
 		ArrayList<String> a = new ArrayList();
 		// String[] numbers ={"331","821","886","554"};
 		a.add("331");

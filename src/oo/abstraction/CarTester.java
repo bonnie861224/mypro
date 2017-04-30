@@ -4,9 +4,9 @@ public class CarTester {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Car c1 = new Car("TOTOTA", 1800, "ALTIS");
-		Car c2 = new Car("HONDA", 2000, "ACCORD");
-		Car c3 = new Car("TOYOTA", 2000, "WISH");
+		Car c1 = new Car("TOTOTA", "ALTIS", 1800);
+		Car c2 = new Car("HONDA", "ACCORD", 2000);
+		Car c3 = new Car("TOYOTA", "WISH", 2000);
 		int[] n = new int[5];
 		// n[0]=0
 		// n[1]=0
