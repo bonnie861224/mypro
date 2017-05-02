@@ -26,6 +26,7 @@ public class Tester {
 		String data = a.get(2);//拿裡面的第三項
 		// int n =(int)a.get(4);
 		System.out.println(data);
+//		Student stu = new Student();因為不是public所以不能用
 		}
 	}
 
