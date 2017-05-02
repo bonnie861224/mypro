@@ -11,7 +11,7 @@ public class Tester {
 		stu1.pass = 70;// 因為static所以改一個全部都會跟著改
 		stu1.print();
 		stu2.print();
-		GradueateStudent gstu = new GradueateStudent(68,85,89);
+		GradueateStudent gstu = new GradueateStudent(67,85,89);
 		gstu.print();
 	}
 
