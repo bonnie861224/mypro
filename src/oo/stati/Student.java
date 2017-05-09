@@ -34,4 +34,10 @@ public class Student {
 		}
 
 	}
+	public String toString(){//沒有這段的話stu只會印出位置
+		return
+				"english:"+english+"\n"+
+				"chinese:"+chinese+"\n"+
+				"math:"+math;
+	}
 }
