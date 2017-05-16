@@ -1,7 +1,7 @@
 package oo.shopping;
 
 public class GoldenCustomer extends Customer {
-	public double amount;
+	int amount;
 	public GoldenCustomer(int amount) {
 		super(amount);
 	}

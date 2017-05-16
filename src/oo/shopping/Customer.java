@@ -1,7 +1,7 @@
 package oo.shopping;
 
 public class Customer {
-	public char[] amount;
+	int amount;
 	public Customer(int amount){	
 	}
 	public void print(){
