@@ -5,6 +5,6 @@ public class Customer {
 	public Customer(int amount){	
 	}
 	public void print(){
-		System.out.println(amount);
+		System.out.println("原價"+amount);
 	}
 }
