@@ -6,6 +6,6 @@ public class Customer {
 		this.amount=amount;
 	}
 	public void print(){
-		System.out.println("原價"+amount);
+		System.out.println("一般會員"+"\t"+"原價:"+amount);
 	}
 }

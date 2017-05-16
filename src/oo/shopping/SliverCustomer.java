@@ -7,6 +7,6 @@ public class SliverCustomer extends Customer {
 		this.amount=amount;
 	}
 	public void print(){
-		System.out.println("折扣後"+Math.round(amount*0.9));
+		System.out.println("銀級會員"+"\t"+"折扣後:"+Math.round(amount*0.9));
 	}
 }
