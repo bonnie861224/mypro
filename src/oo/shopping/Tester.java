@@ -12,8 +12,13 @@ public class Tester {
 		list.add(new SliverCustomer(10000));
 		list.add(new GoldenCustomer(30000));
 		list.add(new GoldenCustomer(10000));
-		for (int i = 0; i < list.size(); i++) {
-			Customer cus = list.get(i);
+		// for (int i = 0; i < list.size(); i++) {
+		// Customer cus = list.get(i);
+		for (Customer cus : list) {
+			if (cus instanceof Customer && !(cus instanceof SliverCustomer) && !(cus instanceof GoldenCustomer)) {
+				System.out.print("*");
+				Customer customer =(Customer)cus;//轉型
+			}
 			cus.print();
 		}
 	}
