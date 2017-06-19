@@ -23,10 +23,12 @@ public class PhoneMember extends Member {
 
 	public boolean isverified() {
 		return verified;
+		
 	}
 
 	public void setVerified(boolean verified) {
 		this.verified = verified;
+		System.out.println("驗證成功");
 	}
 
 }
